@@ -38,6 +38,11 @@ function leftRight(){
     </div>
   );
 }
+//things to do
+//1) nav bar
+//2) background images
+//3) organize files
+//4) make the fonts and style look better
 
 function App() {
   return (
