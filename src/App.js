@@ -1,5 +1,7 @@
 import React from 'react';
-import logo from './CoFED_logo.png';
+import logo from './images/CoFED_logo.png';
+import rlImage from './images/rl-image.png';
+import Geophysics from './images/Geophysics.png';
 import './App.css';
 
 //things to do
@@ -9,31 +11,85 @@ import './App.css';
  
 function App() {
   return (
+    //nav bar
     <div>
       <div class="navbar">
           <u1 class="menu-area">
-            <li><a href="#"> Home</a></li>
+            <li><a href="#home"> (--  Home</a></li>
             <li><a> /</a></li>
-            <li><a href="#"> About</a></li>
+            <li><a href="#about"> About</a></li>
             <li><a> /</a></li>
-            <li><a href="#"> Experinces</a></li>
+            <li><a href="#experinces"> Experinces</a></li>
             <li><a> /</a></li>
-            <li><a href="#"> Projects</a></li>
+            <li><a href="#projects"> Projects</a></li>
             <li><a> /</a></li>
-            <li><endItem href="#"> Contacts</endItem></li>
-   
-
+            <li><a href="#contact"> Contact</a></li>
+            <li><endItem> --)</endItem></li>
           </u1>
       </div>
 
-      <div className="intro-page">
+    {/*Intro page */}
+      <div className="intro-page" id="home">
         <div className="intro-box">
           <h3>Hey, I'm</h3>
           <h1>Eric Hao</h1>
         </div>
       </div>
 
-      <div className="leftRight-container">
+    {/*About page */}
+      <div className="leftRight-container-left" id="about">
+          
+          <div className="text-container-right-border">
+          <hr/>
+          <h1 className="header-no-border">About</h1>
+            <div className="text-item">
+            <p>
+            I am currently a student at the University
+             of California Berkeley, intending to major
+              in computer science. 
+            </p>
+            <p>
+            I have always had a passion for STEM and love the thrill of learning.
+             I truly believe education is a beautfiul and generous thing. 
+            </p>
+            </div>
+          </div>
+      </div>
+
+    {/*Experinces page */}
+    <div className="leftRight-container-right" id="experinces">
+          
+          <div>
+          <img src={rlImage} className="image-item" alt="rlImage" />
+          <img src={Geophysics} className="image-item" alt="Geophysics" />
+          </div>
+
+          <div className="text-container">
+          <h1 className="header">Experinces</h1>
+          <h2 className="sub-header"> Reinforment Learning Research (2019) </h2>
+            <div className="text-item">
+            <p>
+            Under the guidance of Dr. Gasarch from the University of Maryland, 
+            I used the Q-Learning algorithmn to train a machine to play 1, 2, 3 NIM. 
+            This research was purely explorative.
+            </p>
+            </div>
+
+            <h2 className="sub-header"> Geophysics Research (2018) </h2>
+              <div className="text-item">
+              <p>
+              I invested the phase changes of the water-methane-carbon dioxide
+              system using Raman Spectroscopy
+              at the Cargnegie Geophysics Lab. 
+              </p>
+              </div>
+          </div>
+          
+          
+      </div>
+
+    {/*Projects page */}
+      <div className="leftRight-container-left" id="projects">
           
           <div className="text-container">
           <hr/>
@@ -54,6 +110,32 @@ function App() {
 
           <img src={logo} className="image-item" alt="logo" />
       </div>
+
+
+   {/*Contact */}
+   <div className="leftRight-container-right" id="contact">
+
+          <div className="text-container-contact">
+          <h1 className="header">Contact</h1>
+          <h2 className="sub-header"> Email </h2>
+            <div className="text-item">
+            <p>
+            ehao@berkeley.edu
+            </p>
+            </div>
+
+            <h2 className="sub-header"> Phone Number </h2>
+              <div className="text-item">
+              <p>
+              240 - 644 - 3738
+              </p>
+              </div>
+          </div>
+          
+          
+      </div>
+
+
 
     </div>
 
