@@ -24,6 +24,7 @@
   color: #61dafb;
 }
 
+/*left-right stuff*/
 .header {
   order: 0;
   font-size: 50px;
@@ -56,6 +57,9 @@
   display: flex; /* or inline-flex */
   flex-direction: row;
   align-items: center;
+  border: 5px solid #000000;
+  padding-bottom: 100px;
+  
 }
 
 .image-item {
@@ -65,14 +69,10 @@
   padding-left: 90px;
 }
 
-.mainpage {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh; /*might screw things up later. Height is set based on screen*/
-}
 
-.intro-box {
+/*intro page stuff*/
+
+.intro-page {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -102,15 +102,61 @@
   top: 30%;
 }
 
-.box{
+.intro-box{
   width: 488px;
   height: 301px;
   left: 476px;
   top: 213px;
+  margin-bottom: 200px;
 
   background: #FFFFFF;
   border: 5px solid #000000;
   box-sizing: border-box;
-  
 
+}
+
+body{
+  background-image: url(backgroun.svg);
+  background-position: center, center;
+}
+
+.menu-area li a{
+  text-decoration: none;
+  color: #000000;
+  letter-spacing: 1px;
+  padding: 0 25 px;
+  font-size: 14 px;
+  line-height: 30 px;
+  z-index: 1;
+  margin-left: 5px;
+}
+.menu-area li endItem{
+  text-decoration: none;
+  color: #000000;
+  letter-spacing: 1px;
+  padding: 0 25 px;
+  font-size: 14 px;
+  line-height: 30 px;
+  z-index: 1;
+  margin-right: 100px;
+}
+
+.menu-area li{
+  list-style: none;
+  display: inline;
+
+}
+.navbar{
+  position: relative;
+  padding-top:20px;
+  padding-bottom: 20px;
+  text-align: right;
+  z-index: 1;
+  background: #A2D2F3;
+  margin: 0 0;
+  width: 100%;
+  flex-direction: row;
+  display:flex;
+  justify-content: flex-end;
+  
 }
