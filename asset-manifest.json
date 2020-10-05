@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/ehao1/static/css/main.8ff689e6.chunk.css",
+    "main.js": "/ehao1/static/js/main.ef864552.chunk.js",
+    "main.js.map": "/ehao1/static/js/main.ef864552.chunk.js.map",
+    "runtime-main.js": "/ehao1/static/js/runtime-main.ac6f1738.js",
+    "runtime-main.js.map": "/ehao1/static/js/runtime-main.ac6f1738.js.map",
+    "static/js/2.9d001d76.chunk.js": "/ehao1/static/js/2.9d001d76.chunk.js",
+    "static/js/2.9d001d76.chunk.js.map": "/ehao1/static/js/2.9d001d76.chunk.js.map",
+    "index.html": "/ehao1/index.html",
+    "precache-manifest.debfaf349b5c50cc6bc9df634ad0dc5d.js": "/ehao1/precache-manifest.debfaf349b5c50cc6bc9df634ad0dc5d.js",
+    "service-worker.js": "/ehao1/service-worker.js",
+    "static/css/main.8ff689e6.chunk.css.map": "/ehao1/static/css/main.8ff689e6.chunk.css.map",
+    "static/js/2.9d001d76.chunk.js.LICENSE.txt": "/ehao1/static/js/2.9d001d76.chunk.js.LICENSE.txt",
+    "static/media/CoFED_logo.png": "/ehao1/static/media/CoFED_logo.786c4229.png",
+    "static/media/Geophysics.png": "/ehao1/static/media/Geophysics.a8853f2e.png",
+    "static/media/App.css": "/ehao1/static/media/background.f19aa719.svg",
+    "static/media/rl-image.png": "/ehao1/static/media/rl-image.9fdf41a4.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ac6f1738.js",
+    "static/js/2.9d001d76.chunk.js",
+    "static/css/main.8ff689e6.chunk.css",
+    "static/js/main.ef864552.chunk.js"
+  ]
+}
