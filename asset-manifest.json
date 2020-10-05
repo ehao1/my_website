@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/ehao1/static/css/main.8ff689e6.chunk.css",
-    "main.js": "/ehao1/static/js/main.ef864552.chunk.js",
-    "main.js.map": "/ehao1/static/js/main.ef864552.chunk.js.map",
-    "runtime-main.js": "/ehao1/static/js/runtime-main.ac6f1738.js",
-    "runtime-main.js.map": "/ehao1/static/js/runtime-main.ac6f1738.js.map",
-    "static/js/2.9d001d76.chunk.js": "/ehao1/static/js/2.9d001d76.chunk.js",
-    "static/js/2.9d001d76.chunk.js.map": "/ehao1/static/js/2.9d001d76.chunk.js.map",
-    "index.html": "/ehao1/index.html",
-    "precache-manifest.debfaf349b5c50cc6bc9df634ad0dc5d.js": "/ehao1/precache-manifest.debfaf349b5c50cc6bc9df634ad0dc5d.js",
-    "service-worker.js": "/ehao1/service-worker.js",
-    "static/css/main.8ff689e6.chunk.css.map": "/ehao1/static/css/main.8ff689e6.chunk.css.map",
-    "static/js/2.9d001d76.chunk.js.LICENSE.txt": "/ehao1/static/js/2.9d001d76.chunk.js.LICENSE.txt",
-    "static/media/CoFED_logo.png": "/ehao1/static/media/CoFED_logo.786c4229.png",
-    "static/media/Geophysics.png": "/ehao1/static/media/Geophysics.a8853f2e.png",
-    "static/media/App.css": "/ehao1/static/media/background.f19aa719.svg",
-    "static/media/rl-image.png": "/ehao1/static/media/rl-image.9fdf41a4.png"
+    "main.css": "/my-website/static/css/main.fb2b0031.chunk.css",
+    "main.js": "/my-website/static/js/main.d43271c4.chunk.js",
+    "main.js.map": "/my-website/static/js/main.d43271c4.chunk.js.map",
+    "runtime-main.js": "/my-website/static/js/runtime-main.0cbcd75a.js",
+    "runtime-main.js.map": "/my-website/static/js/runtime-main.0cbcd75a.js.map",
+    "static/js/2.9d001d76.chunk.js": "/my-website/static/js/2.9d001d76.chunk.js",
+    "static/js/2.9d001d76.chunk.js.map": "/my-website/static/js/2.9d001d76.chunk.js.map",
+    "index.html": "/my-website/index.html",
+    "precache-manifest.1a46cb315933a4bb027b3da137f28b41.js": "/my-website/precache-manifest.1a46cb315933a4bb027b3da137f28b41.js",
+    "service-worker.js": "/my-website/service-worker.js",
+    "static/css/main.fb2b0031.chunk.css.map": "/my-website/static/css/main.fb2b0031.chunk.css.map",
+    "static/js/2.9d001d76.chunk.js.LICENSE.txt": "/my-website/static/js/2.9d001d76.chunk.js.LICENSE.txt",
+    "static/media/CoFED_logo.png": "/my-website/static/media/CoFED_logo.786c4229.png",
+    "static/media/Geophysics.png": "/my-website/static/media/Geophysics.a8853f2e.png",
+    "static/media/App.css": "/my-website/static/media/background.f19aa719.svg",
+    "static/media/rl-image.png": "/my-website/static/media/rl-image.9fdf41a4.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.ac6f1738.js",
+    "static/js/runtime-main.0cbcd75a.js",
     "static/js/2.9d001d76.chunk.js",
-    "static/css/main.8ff689e6.chunk.css",
-    "static/js/main.ef864552.chunk.js"
+    "static/css/main.fb2b0031.chunk.css",
+    "static/js/main.d43271c4.chunk.js"
   ]
 }
