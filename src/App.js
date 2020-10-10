@@ -3,16 +3,51 @@ import logo from './images/CoFED_logo.png';
 import rlImage from './images/rl-image.png';
 import Geophysics from './images/Geophysics.png';
 import './App.css';
+import ProjFunc from './ProjFunc.js';
+import axios from 'axios';
 
-//things to do
-//1) nav bar
-//3) organize files
-//4) make the fonts and style look better
- 
+
+//do the enviornment key stuff
+//update about
+//
+
+
 function App() {
+
+  const [projects, setProjects] = React.useState(null);
+  
+  async function fetchData() {
+    const res = await axios.get(
+      
+      'https://api.airtable.com/v0/appUYJORSDB0bukw7/ProjectList',
+      {
+        headers: {
+          authorization: `Bearer `,
+        },
+      }
+    );
+    console.log(res.data);
+    //not sure if this is right :()
+    setProjects(res.data.records);
+  }
+
+  
+  React.useEffect(() => {
+    fetchData();
+  }, []);
+  
+  
+  if (!projects) {
+    return <div>Loading...</div>;
+  }
+
+
+
+
   return (
     //nav bar
     <div>
+
       <div class="navbar">
           <u1 class="menu-area">
             <li><a href="#home"> (--  Home</a></li>
@@ -90,8 +125,15 @@ function App() {
 
     {/*Projects page */}
       <div className="leftRight-container-left" id="projects">
-          
           <div className="text-container">
+          <h1 className="header">Projects</h1>
+
+          <div>
+          {projects.map((record) => (
+              <ProjFunc key={record.id} info={record.fields} />
+            ))}
+          </div>
+          {/* <div className="text-container">
           <hr/>
           <h1 className="header">Projects</h1>
           <h2 className="sub-header"> CoFED web application (2020) </h2>
@@ -106,8 +148,8 @@ function App() {
             to build a web portal for co-ops to connect with each other.
             </p>
             </div>
+          </div> */}
           </div>
-
           <img src={logo} className="image-item" alt="logo" />
       </div>
 
@@ -132,7 +174,6 @@ function App() {
               </div>
           </div>
           
-          
       </div>
 
 
@@ -141,22 +182,23 @@ function App() {
 
 
 
-    /* // <div className="App">
-    //   <header className="App-header">
-    //     <img src={logo} className="App-logo" alt="logo" />
-    //     <p>
-    //       Edit <code>src/App.js</code> and save to reload.
-    //     </p>
-    //     <a
-    //       className="App-link"
-    //       href="https://reactjs.org"
-    //       target="_blank"
-    //       rel="noopener noreferrer"
-    //     >
-    //       Learn React
-    //     </a>
-    //   </header>
-    // </div> */
+  // // <div className="App">
+  // //   <header className="App-header">
+  // //     <img src={logo} className="App-logo" alt="logo" />
+  // //     <p>
+  // //       Edit <code>src/App.js</code> and save to reload.
+  // //     </p>
+  // //     <a
+  // //       className="App-link"
+  // //       href="https://reactjs.org"
+  // //       target="_blank"
+  // //       rel="noopener noreferrer"
+  // //     >
+  // //       Learn React
+  // //     </a>
+  // //   </header>
+  // // </div> 
+  // );
   );
 }
 

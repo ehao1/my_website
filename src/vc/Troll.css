@@ -1,0 +1,208 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+.App-header {
+  background-color: #fff;
+  /* background-image: url('../public/logo512.png'); */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/*left-right stuff*/
+.header {
+  font-size: 80px;
+  text-align: left;
+  padding-bottom: 20px;
+  border-bottom: 3px solid #000000;
+  margin-bottom: 10px;
+}
+
+.header-no-border {
+  font-size: 80px;
+  text-align: left;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+}
+
+.sub-header {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.text-item {
+  font-size: 30px;
+}
+
+.text-container {
+  display: flex; /* or inline-flex */
+  flex-direction: column;
+  max-width: 600px;
+  padding-left: 50px;
+  padding-right:30px;
+  padding-bottom:30px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: white;
+  /* background-color: blue; */
+}
+
+.text-container-right-border {
+  display: flex; /* or inline-flex */
+  flex-direction: column;
+  max-width: 600px;
+  padding-left: 50px;
+  padding-right:30px;
+  padding-bottom:30px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  /* background-color: blue; */
+}
+
+.text-container-contact {
+  display: flex; /* or inline-flex */
+  flex-direction: column;
+  width: 600px;
+  padding-left: 50px;
+  padding-right:30px;
+  padding-bottom:30px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  /* background-color: blue; */
+}
+
+.leftRight-container-right {
+  display: flex; /* or inline-flex */
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 100px;
+  width: 95%;
+  justify-content: flex-end;
+  margin-right: 50px;
+  padding-right: 50px;
+
+}
+
+.leftRight-container-left {
+  display: flex; /* or inline-flex */
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 100px;
+  width: 100%;
+  margin-left: 50px;
+  padding-left: 50px;
+
+}
+
+.image-item {
+  display: flex; /* or inline-flex */
+  padding-top: 60px;
+  padding-left: 90px;
+  
+
+}
+
+
+/*intro page stuff*/
+
+.intro-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /*might screw things up later. Height is set based on screen*/
+}
+
+.intro-box h1 {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3em;
+  text-align: right;
+  margin: auto;
+  position: relative;
+  top: 30%;
+}
+
+.intro-box h3 {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+
+  text-align: left;
+  margin: auto;
+  position: relative;
+  top: 30%;
+}
+
+.intro-box{
+  width: 488px;
+  height: 301px;
+  left: 476px;
+  top: 213px;
+  margin-bottom: 200px;
+
+  background: #FFFFFF;
+  box-sizing: border-box;
+
+
+}
+
+
+
+body{
+}
+
+/*nav bar*/
+.menu-area li a{
+  text-decoration: none;
+  color: #000000;
+  letter-spacing: 1px;
+  padding: 0 25 px;
+  font-size: 14 px;
+  line-height: 30 px;
+  z-index: 1;
+  margin-left: 5px;
+}
+.menu-area li endItem{
+  text-decoration: none;
+  color: #000000;
+  letter-spacing: 1px;
+  padding: 0 25 px;
+  font-size: 14 px;
+  line-height: 30 px;
+  z-index: 1;
+  margin-right: 100px;
+}
+
+.menu-area li{
+  list-style: none;
+  display: inline;
+
+}
+.navbar{
+  position: fixed;
+  padding-top:20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  text-align: right;
+  z-index: 1;
+  margin: 0 0;
+  width: 100%;
+  flex-direction: row;
+  display:flex;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
