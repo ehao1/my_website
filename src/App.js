@@ -1,7 +1,4 @@
 import React from "react";
-// import logo from './images/CoFED_logo.png';
-// import rlImage from './images/rl-image.png';
-// import Geophysics from './images/Geophysics.png';
 import "./App.css";
 import ProjFunc from "./ProjFunc.js";
 import axios from "axios";
