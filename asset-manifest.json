@@ -1,26 +1,21 @@
 {
   "files": {
-    "main.css": "/my-website/static/css/main.fb2b0031.chunk.css",
-    "main.js": "/my-website/static/js/main.d43271c4.chunk.js",
-    "main.js.map": "/my-website/static/js/main.d43271c4.chunk.js.map",
-    "runtime-main.js": "/my-website/static/js/runtime-main.0cbcd75a.js",
-    "runtime-main.js.map": "/my-website/static/js/runtime-main.0cbcd75a.js.map",
-    "static/js/2.9d001d76.chunk.js": "/my-website/static/js/2.9d001d76.chunk.js",
-    "static/js/2.9d001d76.chunk.js.map": "/my-website/static/js/2.9d001d76.chunk.js.map",
-    "index.html": "/my-website/index.html",
-    "precache-manifest.1a46cb315933a4bb027b3da137f28b41.js": "/my-website/precache-manifest.1a46cb315933a4bb027b3da137f28b41.js",
-    "service-worker.js": "/my-website/service-worker.js",
-    "static/css/main.fb2b0031.chunk.css.map": "/my-website/static/css/main.fb2b0031.chunk.css.map",
-    "static/js/2.9d001d76.chunk.js.LICENSE.txt": "/my-website/static/js/2.9d001d76.chunk.js.LICENSE.txt",
-    "static/media/CoFED_logo.png": "/my-website/static/media/CoFED_logo.786c4229.png",
-    "static/media/Geophysics.png": "/my-website/static/media/Geophysics.a8853f2e.png",
-    "static/media/App.css": "/my-website/static/media/background.f19aa719.svg",
-    "static/media/rl-image.png": "/my-website/static/media/rl-image.9fdf41a4.png"
+    "main.css": "/static/css/main.8df877f8.chunk.css",
+    "main.js": "/static/js/main.e7736a00.chunk.js",
+    "main.js.map": "/static/js/main.e7736a00.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ada98a92.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ada98a92.js.map",
+    "static/js/2.2f9108a6.chunk.js": "/static/js/2.2f9108a6.chunk.js",
+    "static/js/2.2f9108a6.chunk.js.map": "/static/js/2.2f9108a6.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.8df877f8.chunk.css.map": "/static/css/main.8df877f8.chunk.css.map",
+    "static/js/2.2f9108a6.chunk.js.LICENSE.txt": "/static/js/2.2f9108a6.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/background.9bbb759a.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.0cbcd75a.js",
-    "static/js/2.9d001d76.chunk.js",
-    "static/css/main.fb2b0031.chunk.css",
-    "static/js/main.d43271c4.chunk.js"
+    "static/js/runtime-main.ada98a92.js",
+    "static/js/2.2f9108a6.chunk.js",
+    "static/css/main.8df877f8.chunk.css",
+    "static/js/main.e7736a00.chunk.js"
   ]
 }
