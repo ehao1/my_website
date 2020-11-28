@@ -7,7 +7,6 @@
   pointer-events: none;
 }
 
-
 .App-header {
   background-color: #fff;
   /* background-image: url('../public/logo512.png'); */
@@ -54,8 +53,8 @@
   flex-direction: column;
   max-width: 600px;
   padding-left: 50px;
-  padding-right:30px;
-  padding-bottom:30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
   font-family: Arial, Helvetica, sans-serif;
   background-color: white;
   border: 3px solid black;
@@ -67,8 +66,8 @@
   flex-direction: column;
   max-width: 600px;
   padding-left: 50px;
-  padding-right:30px;
-  padding-bottom:30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
   font-family: Arial, Helvetica, sans-serif;
   background-color: white;
   border: 3px solid #000000;
@@ -80,8 +79,8 @@
   flex-direction: column;
   width: 600px;
   padding-left: 50px;
-  padding-right:30px;
-  padding-bottom:30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
   font-family: Arial, Helvetica, sans-serif;
   background-color: white;
   border: 3px solid #000000;
@@ -97,7 +96,6 @@
   justify-content: flex-end;
   margin-right: 50px;
   padding-right: 50px;
-
 }
 
 .leftRight-container-left {
@@ -108,17 +106,13 @@
   width: 100%;
   margin-left: 50px;
   padding-left: 50px;
-
 }
 
 .image-item {
   display: flex; /* or inline-flex */
   padding-top: 60px;
   padding-left: 90px;
-  
-
 }
-
 
 /*intro page stuff*/
 
@@ -152,28 +146,25 @@
   top: 30%;
 }
 
-.intro-box{
+.intro-box {
   width: 488px;
   height: 301px;
   left: 476px;
   top: 213px;
   margin-bottom: 200px;
 
-  background: #FFFFFF;
+  background: #ffffff;
   border: 5px solid #000000;
   box-sizing: border-box;
-
 }
 
-
-
-body{
+body {
   background-image: url(background.svg);
   background-position: center, center;
 }
 
 /*nav bar*/
-.menu-area li a{
+.menu-area li a {
   text-decoration: none;
   color: #000000;
   letter-spacing: 1px;
@@ -183,7 +174,7 @@ body{
   z-index: 1;
   margin-left: 5px;
 }
-.menu-area li endItem{
+.menu-area li endItem {
   text-decoration: none;
   color: #000000;
   letter-spacing: 1px;
@@ -194,21 +185,20 @@ body{
   margin-right: 100px;
 }
 
-.menu-area li{
+.menu-area li {
   list-style: none;
   display: inline;
-
 }
-.navbar{
+.navbar {
   position: fixed;
-  padding-top:20px;
+  padding-top: 20px;
   padding-bottom: 20px;
   text-align: right;
   z-index: 1;
-  background: #A2D2F3;
+  background: #a2d2f3;
   margin: 0 0;
   width: 100%;
   flex-direction: row;
-  display:flex;
+  display: flex;
   justify-content: flex-end;
 }
